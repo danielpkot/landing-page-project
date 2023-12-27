@@ -21,6 +21,15 @@ body{
 
 .content-two{
     border:2px red solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.items{
+    display: flex;
+
 }
 
 .content-three{
@@ -44,4 +53,17 @@ ul{
 a{
     text-decoration: none;
     
+}
+
+.items img{
+    width:auto;
+    height:100px;
+    border: 10px blue solid;
+    border-radius: 20px;
+    
+}
+
+.items div{
+    border: 5px red solid;
+    text-align: center;
 }
