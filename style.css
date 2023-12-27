@@ -34,7 +34,15 @@ body{
 
 .content-three{
     border:2px red solid;
+    padding:50px;
 }
+
+.content-three div{
+    text-align: right;
+    
+}
+
+
 
 .footer{
     border:2px red solid;
